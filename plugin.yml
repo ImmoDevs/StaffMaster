@@ -1,0 +1,14 @@
+name: StaffMaster
+main: ImmoDev\Staff\Loader
+api: 5.0.0
+version: 1.0
+author: ImmoDevs
+website: https://github.com/ImmoDevs
+
+permissions:
+  staffchat.use:
+    description: -
+    default: op
+  staffview:
+    description: -
+    default: op
