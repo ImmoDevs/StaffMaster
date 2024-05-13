@@ -3,7 +3,8 @@
 namespace ImmoDev\Staff;
 
 use pocketmine\plugin\PluginBase;
-use ImmoDev\Staff\Commands\StaffChatCommand;
+use ImmoDev\Staff\Commands\{StaffChatCommand, FreezeCommand, UnfreezeCommand};
+use ImmoDev\Staff\Listeners\FreezeListener;
 use pocketmine\event\Listener;
 
 class Loader extends PluginBase {
@@ -20,7 +21,9 @@ class Loader extends PluginBase {
 
 	public function registerCommands() {
 		$commands = [
-			new StaffChatCommand($this)
+			new StaffChatCommand($this),
+			new FreezeCommand($this),
+			new UnfreezeCommand($this)
 		];
 
 		foreach ($commands as $command) {
@@ -30,7 +33,8 @@ class Loader extends PluginBase {
 
 	public function registerEvents(): void {
 		$listeners  = [
-			new StaffChatCommand($this)
+			new StaffChatCommand($this),
+			new FreezeListener($this)
 		];
 
 		foreach ($listeners  as $listener) {
