@@ -3,12 +3,19 @@ main: ImmoDev\Staff\Loader
 api: 5.0.0
 version: 1.0
 author: ImmoDevs
-website: https://github.com/ImmoDevs
+website: https://github.com/ImmoDevs/StaffMaster
 
 permissions:
   staffchat.use:
-    description: -
+    description: Allows using the staffchat command.
     default: op
   staffview:
-    description: -
+    description: Allows viewing staffchat messages.
     default: op
+  staff.freeze.use:
+    description: Allows Freezing players, preventing them from moving.
+    default: op
+  staff.unfreeze.use:
+    description: Allows Unfreezing players, and let them move.
+    default: op
+    
