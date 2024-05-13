@@ -9,6 +9,8 @@ A dedicated chat channel for staff members to communicate privately, ensuring th
 - **Easy to Enable/Disable:** Staff can easily enable or disable StaffChat with a single command.
 - **Direct message:** Once enabled, all messages sent by staff will go directly to StaffChat without the need for additional commands.
 
+### Freeze
+A dedicated for staff members to freezing players.
 - **Freeze Player**: Temporarily immobilize misbehaving players with the freeze command. A crucial tool for moderating player actions and preventing further disruption.
 - **Unfreeze Player**: Easily restore mobility to frozen players once the situation is resolved or the punishment period has ended.
 - **Freeze Listener**: An advanced listener that monitors frozen players, ensuring they remain immobilized and cannot bypass the restrictions.
