@@ -1,49 +1,45 @@
-# StaffChat Plugin for PocketMine-MP
+# StaffMaster Plugin for PocketMine-MP
 
-StaffChat adalah plugin PocketMine-MP yang memungkinkan staff atau operator server untuk berkomunikasi di dalam chat khusus staff. Dengan plugin ini, pesan dapat dengan mudah dibedakan dan dijaga kerahasiaannya dari pemain biasa.
+Welcome to StaffMaster, the ultimate plugin for server administrators and staff members. This powerful plugin introduces essential moderation tools to enhance control and communication within your Minecraft: Pocket Edition server powered by PocketMine-MP. With features like staff chat, player freeze, and unfreeze commands, StaffMaster is designed to streamline staff operations and improve server management.
 
-## Fitur
+## Features
 
-- **Chat Khusus Staff:** Hanya staff yang dapat melihat dan mengirim pesan di dalam chat ini.
-- **Mudah Diaktifkan/Nonaktifkan:** Staff dapat dengan mudah mengaktifkan atau menonaktifkan StaffChat dengan satu perintah.
-- **Pesan Langsung:** Setelah diaktifkan, semua pesan yang dikirim oleh staff akan langsung masuk ke StaffChat tanpa perlu perintah tambahan.
+### StaffChat
+A dedicated chat channel for staff members to communicate privately, ensuring that sensitive matters are discussed away from the public eye.
+- **Easy to Enable/Disable:** Staff can easily enable or disable StaffChat with a single command.
+- **Direct message:** Once enabled, all messages sent by staff will go directly to StaffChat without the need for additional commands.
 
-## Persyaratan
+- **Freeze Player**: Temporarily immobilize misbehaving players with the freeze command. A crucial tool for moderating player actions and preventing further disruption.
+- **Unfreeze Player**: Easily restore mobility to frozen players once the situation is resolved or the punishment period has ended.
+- **Freeze Listener**: An advanced listener that monitors frozen players, ensuring they remain immobilized and cannot bypass the restrictions.
+- **Freeze Manager**: A comprehensive management system to handle the freezing and unfreezing of players, providing staff with seamless control over this moderation tool.
 
-- PocketMine-MP 5.0.0 atau lebih baru.
+## Usage
 
-## Cara Penggunaan
+### Commands
 
-1. **Instalasi Plugin:**
-   - Download plugin StaffChat.
-   - Letakkan file `.phar` plugin ke dalam folder `plugins` di server PocketMine-MP Anda.
-   - Restart server Anda.
+- `/staffchat <message>`: Send a message to the private staff chat.
+- `/freeze <player>`: Freeze players, preventing them from moving, jumping, flying and more
+- `/unfreeze <player>`: Unfreeze a player, allowing them to move again.
 
-2. **Mengaktifkan StaffChat:**
-   - Gunakan perintah `/staffchat` untuk mengaktifkan atau menonaktifkan StaffChat.
-   - Setelah diaktifkan, semua pesan yang Anda kirim akan otomatis masuk ke StaffChat.
+### Permissions
 
-3. **Mengirim Pesan ke StaffChat:**
-   - Jika StaffChat sudah diaktifkan, cukup ketik pesan Anda seperti biasa dan pesan tersebut akan terkirim ke StaffChat.
-   - Untuk mengirim pesan ke StaffChat tanpa mengaktifkan mode StaffChat, gunakan `/staffchat <pesan>`.
+- `staffmaster.staffchat`: Allows access to the staff chat.
+- `staffmaster.freeze`: Allows the user to freeze players.
+- `staffmaster.unfreeze`: Allows the user to unfreeze players.
 
-## Permissions
+## Configuration
 
-- `staffchat.use`: Izin untuk menggunakan perintah `/staffchat` dan mengirim pesan ke StaffChat.
-- `staffchat.view`: Izin untuk melihat pesan di StaffChat.
+this plugin requires no additional configuration
 
-## Konfigurasi
+## Support
 
-Plugin ini tidak memerlukan konfigurasi tambahan.
+For support, questions, or to contribute to the project, please visit our GitHub repository or contact us directly through our support channels.
 
-## Dukungan
+## Contributing
 
-Jika Anda memiliki pertanyaan atau masalah terkait dengan plugin ini, silakan buka issue di repository GitHub plugin ini.
+Contributions to StaffMaster are always welcome! Whether it's bug reports, feature suggestions, or direct code contributions, we appreciate all forms of support to make StaffMaster better for everyone.
 
-## Kontribusi
+## License
 
-Kontribusi selalu diterima. Jika Anda ingin berkontribusi, silakan fork repository ini dan buat pull request dengan perubahan Anda.
-
-## Lisensi
-
-Plugin ini dilisensikan di bawah lisensi MIT. Lihat file `LICENSE` untuk informasi lebih lanjut.
+StaffMaster is released under the [MIT License](LICENSE). Feel free to use it, modify it, and distribute it as you see fit.
