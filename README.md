@@ -1,5 +1,8 @@
 # StaffMaster Plugin for PocketMine-MP
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://semver.org)
+
 Welcome to StaffMaster, the ultimate plugin for server administrators and staff members. This powerful plugin introduces essential moderation tools to enhance control and communication within your Minecraft: Pocket Edition server powered by PocketMine-MP. With features like staff chat, player freeze, and unfreeze commands, StaffMaster is designed to streamline staff operations and improve server management.
 
 ## Features
